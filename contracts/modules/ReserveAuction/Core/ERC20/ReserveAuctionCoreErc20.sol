@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-3.0
-pragma solidity 0.8.10;
+pragma solidity ^0.8.10;
 
-import {ReentrancyGuard} from "@rari-capital/solmate/src/utils/ReentrancyGuard.sol";
-import {IERC721} from "@openzeppelin/contracts/token/ERC721/IERC721.sol";
+import {ReentrancyGuard} from "@solmate/utils/ReentrancyGuard.sol";
+import {IERC721} from "@openzeppelin/token/ERC721/IERC721.sol";
 
 import {ERC721TransferHelper} from "../../../../transferHelpers/ERC721TransferHelper.sol";
 import {IncomingTransferSupportV1} from "../../../../common/IncomingTransferSupport/V1/IncomingTransferSupportV1.sol";
