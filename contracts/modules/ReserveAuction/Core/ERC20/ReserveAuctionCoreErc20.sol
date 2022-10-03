@@ -145,7 +145,7 @@ contract ReserveAuctionCoreErc20 is IReserveAuctionCoreErc20, ReentrancyGuard, I
         address _sellerFundsRecipient,
         uint256 _startTime,
         address _bidCurrency
-    ) external nonReentrant {
+    ) public nonReentrant {
         // Get the owner of the specified token
         address tokenOwner = IERC721(_tokenContract).ownerOf(_tokenId);
 

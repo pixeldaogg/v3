@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-3.0
-pragma solidity 0.8.10;
+pragma solidity ^0.8.10;
 
-import {IERC721} from "@openzeppelin/contracts/token/ERC721/IERC721.sol";
+import {IERC721} from "@openzeppelin/token/ERC721/IERC721.sol";
 import {BaseTransferHelper} from "./BaseTransferHelper.sol";
 
 /// @title ERC-721 Transfer Helper
